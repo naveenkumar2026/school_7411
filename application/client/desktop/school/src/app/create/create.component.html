@@ -1,0 +1,18 @@
+<h2 class="screen-align">Create</h2>
+<form id="template-izmp" class="form">
+    <div id="template-ickl" class="form-group">
+        <label id="template-i14j" class="label">Name</label>
+        <input placeholder="Type here your name" id="template-ibfs"
+        [(ngModel)]="schoolstudent.student_name" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+    <div id="template-i4av" class="form-group">
+        <label id="template-ihxa" class="label">Email</label>
+        <input type="email" placeholder="Type here your email" id="template-iwsc"
+        [(ngModel)]="schoolstudent.student_email" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+    <div id="template-i7p5v" class="form-group">
+        <button type="submit" id="template-i1xj5" (click)="GpCreate()" class="button btn btn-primary">create</button>
+    </div>
+</form>
